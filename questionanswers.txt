@@ -9,3 +9,15 @@ o Write command to connect your local repository to remote repository
 o Write command to push your local repository latest commits to remote
 repository (for the first time)
 o Write command to pull updated changes from remote repository
+
+Answers:
+1. git add stages changes (new files or modified files) so they will be included in the next commit.
+2. -u links the local branch to a remote branch so that future git push and git pull commands work without specifying the remote and branch every time.
+3 A commit is a saved version of the project at a specific point in time, including a message describing the changes.
+4. git pull downloads the latest changes from the remote repository and merges them into the current cloned branch.
+5. A branch is an independent line of development that allows us to work on features or changes without affecting the main code.
+6. A merge conflict happens when two people change the same part of a file and Git cannot automatically combine the changes.
+7. git clone <repository-url> . for example to clone our repository, we used the command "git clone https://github.com/emandoyesus/seng_group9.git" .
+8. git remote add origin <repository-url> . for example to connect our local and remote repository, we used the command "git remote add origin https://github.com/emandoyesus/seng_group9.git" .
+9. git push -u origin <branch-name> . for example to push our local repository to remote, we used the command "git push -u origin seng_group9" .
+10. git pull 
