@@ -1,0 +1,25 @@
+1. git init
+2. git clone https://github.com/emandoyesus/seng_group9.git
+3. git remote -v
+4. git status
+5. git add answers.txt
+6. git add .
+7. git commit -m "Add answers.txt with responses to new questions"
+8. git diff
+9. git diff --cached
+10. git log
+11. git log --oneline
+12. git branch
+13. git branch main
+14. git checkout main
+15. git checkout -b main 
+16. git merge main
+17. If there are conflicting changes, Git marks conflicts in the files. You must resolve them manually, then stage and commit.
+18. git pull
+19. git push origin seng_group9
+20. Commit or stash your local changes before pulling. Example:
+    git stash
+    git pull
+    git stash pop
+21. A Git conflict is when Git cannot automatically merge changes because the same part of a file was modified differently.
+22. A conflict occurs during merge, rebase, or pull when two commits change the same lines in incompatible ways.
